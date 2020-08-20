@@ -1,0 +1,3 @@
+function ac_lib:advanced_crafter/crafted
+tag @s remove ac_lib_advanced_crafter_crafted
+tag @s remove ac_lib_advanced_crafter_crafted_mob_catching_crafting_mode
