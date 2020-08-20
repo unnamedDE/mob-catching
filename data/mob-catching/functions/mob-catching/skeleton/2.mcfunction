@@ -1,5 +1,6 @@
 function ac_lib:advanced_crafter/crafted
-execute align xyz positioned ~.5 ~1 ~.5 run tp @e[type=minecraft:skeleton,limit=1,sort=nearest,distance=...75] ~ -100 ~
+execute align xyz positioned ~.5 ~1 ~.5 run data modify entity @e[type=minecraft:skeleton,limit=1,sort=nearest,distance=...75] DeathLootTable set value "mob-catching/entities/nothing"
+execute align xyz positioned ~.5 ~1 ~.5 run kill @e[type=minecraft:skeleton,limit=1,sort=nearest,distance=...75]
 execute align xyz run particle minecraft:cloud ~.5 ~2 ~.5 .25 1 .25 .1 10
 tag @s remove ac_lib_advanced_crafter_crafted
 tag @s remove ac_lib_advanced_crafter_crafted_mob-catching_skeleton
