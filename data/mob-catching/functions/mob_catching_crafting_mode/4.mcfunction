@@ -1,1 +1,1 @@
-kill @e[type=minecraft:item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:end_crystal",Count:1b,tag:{ac_lib:{craftingMode:"mob-catching"}}}}]
+kill @e[type=minecraft:item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:end_crystal",Count:1b,tag:{ac_lib: {craftingMode: "mob-catching"}, display: {Lore: ['{"text":"Catches mob on top and converts them into spawn eggs","color":"dark_green","italic":false}'], Name: '{"text":"Mob-Catching","color":"dark_purple","italic":false}'}}}}]
